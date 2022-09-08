@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2022/08/15/16605708380030.jpg)
+}
+
+#pantallaIzquierda{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+#pantallaDerecha{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+#figu_frente{
+    
+    box-shadow: 18px 14px 5px 5px #50341e;
+}
+
+.informacion{
+    background: rgb(230,188,53);
+    box-shadow: 18px 14px 5px 5px #50341e;
+/* background: linear-gradient(107deg, rgba(230,188,53,1) 0%, rgba(196,84,34,1) 35%, rgba(230,188,53,1) 100%); */
+}
+
+.titulo_card{ 
+ background-color: #D8D9D7;
+ color: #702D29;
+ font-weight: bold;
+ text-transform: uppercase;
+
+}
+
+.card-text{
+    color: #702D29;
+    font-weight: 500;
+    font-size:1rem;
+}
+
+.btn{
+    background-color:#702D29;
+    color: #D8D9D7;
+    --bs-btn-padding-x: 11rem;
+    --bs-btn-border-width: 0;
+    --bs-btn-hover-color: #702D29;
+    --bs-btn-hover-bg: #D8D9D7;
+    --bs-btn-hover-border-color: #D8D9D7;
+
+}
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: #702D29;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+
+[class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption {
+    background-color: #BBB8B3;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
